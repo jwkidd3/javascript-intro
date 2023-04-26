@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <title>Form Example</title>
+    <script>
+        function enter() {
+            let name = document.userform.username.value;
+            alert('Hi there: ' + name);
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Form Data Example</h2>
+    <form name="userform">
+        <input type="text" name="username" />
+        <input type="button" value="Enter" onclick="enter()" />
+    </form>
+</body>
+
+</html>

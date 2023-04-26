@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <script src="simple-events-examples.js"></script>
+</head>
+
+<body>
+    <h2>Welcome to JavaScript</h2>
+    <form method="GET" onsubmit="return formValidation(form)">
+
+        Name: <input type="text" 
+                     onfocus="myFocusFunction(this)" 
+                     onclick="myClickFunction()"
+                     onmouseover="myMouseOverFunction(this)" 
+                     onmouseout="myMouseOutFunction(this)" />
+        <br />
+
+        <input type="button" value="click me" onclick="hello()" />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>

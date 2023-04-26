@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script>
+            function wellDone() {
+                let nodeList = document.getElementsByTagName("p");
+                console.log(nodeList);
+                nodeList[0].innerHTML = "Well Done";  
+            }
+        </script>
+    </head>
+    <body>
+        <h2>Simple JavaScript Hello World</h2>
+        <p>This is place holder</p>
+        <form>
+            <input type="button" value="say well done" onclick="wellDone()" />
+        </form>
+        <p>This is another paragraph</p>
+    </body>
+</html>

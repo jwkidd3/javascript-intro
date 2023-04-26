@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>DOM Example 1A</title>
+        <script>
+            console.log("Setting up function");
+            function hello() {
+                console.log("Running hello");
+                let node = document.getElementById("demo");
+                console.log(node);
+                document.getElementById("demo").innerHTML = "Hello World!";  
+            }
+        </script>
+    </head>
+    <body>
+        <h2>JavaScript DOM Manipulation Example</h2>
+        <p id="demo">This is place holder</p>
+        <form>
+            <input type="button" value="say hello" onclick="hello()" />
+        </form>
+    </body>
+</html>
